@@ -1383,6 +1383,14 @@ main {
   border: 1px solid var(--jet);
   border-radius: 14px;
   outline: none;
+  transition: border-color var(--transition-1);
+}
+
+@media (max-width: 450px) {
+  .form-input {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
 }
 
 .form-input::placeholder {
