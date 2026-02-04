@@ -609,6 +609,12 @@ main {
   gap: 20px;
 }
 
+@media (max-width: 450px) {
+  .service-list {
+    gap: 15px;
+  }
+}
+
 .service-item {
   position: relative;
   background: var(--border-gradient-onyx);
