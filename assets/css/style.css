@@ -1011,6 +1011,12 @@ main {
   gap: 10px;
 }
 
+@media (max-width: 450px) {
+  .skill-tags {
+    gap: 8px;
+  }
+}
+
 .skill-tag {
   background: var(--border-gradient-onyx);
   color: var(--white-2);
@@ -1020,6 +1026,14 @@ main {
   border-radius: 8px;
   box-shadow: var(--shadow-1);
   transition: var(--transition-1);
+  white-space: nowrap;
+}
+
+@media (max-width: 450px) {
+  .skill-tag {
+    font-size: 11px;
+    padding: 4px 10px;
+  }
 }
 
 .skill-tag:hover {
