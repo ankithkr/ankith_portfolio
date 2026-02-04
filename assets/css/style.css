@@ -962,6 +962,12 @@ main {
   line-height: 1.6;
 }
 
+@media (max-width: 450px) {
+  .timeline-text {
+    font-size: 14px;
+  }
+}
+
 .Markscard {
   background-color: var(--smoky-black);
   border: none;
