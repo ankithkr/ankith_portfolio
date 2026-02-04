@@ -333,8 +333,15 @@ main {
   margin: 15px 12px;
   margin-bottom: 75px;
   min-width: 259px;
-  padding-bottom: 85px;
+  padding-bottom: 100px;
   /* Add padding to prevent navigation overlap */
+}
+
+@media (max-width: 450px) {
+  main {
+    margin: 10px 8px;
+    padding-bottom: 90px;
+  }
 }
 
 
