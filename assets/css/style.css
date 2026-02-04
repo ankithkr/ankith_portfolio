@@ -2274,3 +2274,127 @@ textarea.form-input::-webkit-resizer {
   }
 
 }
+
+
+/*-----------------------------------*\
+  #ADDITIONAL IMPROVEMENTS
+\*-----------------------------------*/
+
+/* Improved hover effects for interactive elements */
+.contact-link {
+  transition: color var(--transition-1);
+}
+
+.contact-link:hover {
+  color: var(--orange-yellow-crayola);
+}
+
+/* Better button and link animations */
+button, a {
+  transition: all var(--transition-1);
+}
+
+/* Improved project item responsiveness */
+@media (max-width: 450px) {
+  .project-img {
+    height: 180px;
+  }
+  
+  .project-title {
+    font-size: 14px;
+  }
+  
+  .project-category {
+    font-size: 12px;
+  }
+}
+
+/* Better avatar image rendering */
+.avatar-box img {
+  object-fit: cover;
+  image-rendering: crisp-edges;
+}
+
+/* Improved text readability on small screens */
+@media (max-width: 450px) {
+  .about-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  
+  .service-item-text {
+    font-size: 13px;
+  }
+}
+
+/* Better spacing for timeline on mobile */
+@media (max-width: 450px) {
+  .timeline-list {
+    margin-left: 35px;
+  }
+  
+  .timeline-item:not(:last-child)::before {
+    left: -25px;
+  }
+  
+  .timeline-item::after {
+    left: -28px;
+  }
+}
+
+/* Improved mapbox responsiveness */
+@media (max-width: 450px) {
+  .mapbox {
+    height: 200px;
+  }
+}
+
+/* Better skill category spacing on mobile */
+@media (max-width: 450px) {
+  .skill-categories {
+    gap: 15px;
+  }
+  
+  .skill-category .h5 {
+    font-size: 14px;
+  }
+}
+
+/* Sidebar improvements for better mobile experience */
+@media (max-width: 450px) {
+  .sidebar {
+    padding: 12px;
+  }
+  
+  .sidebar-info {
+    gap: 12px;
+  }
+  
+  .info-content .name {
+    font-size: 16px;
+  }
+  
+  .info-content .title {
+    font-size: 11px;
+  }
+}
+
+/* Better article padding on small screens */
+@media (max-width: 450px) {
+  article {
+    padding: 20px 15px;
+  }
+}
+
+/* Improved filter button visibility */
+.filter-item button {
+  transition: all var(--transition-1);
+}
+
+/* Better contact form button on mobile */
+@media (max-width: 450px) {
+  .form-btn {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+}
