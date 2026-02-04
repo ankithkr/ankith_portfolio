@@ -2215,6 +2215,12 @@ textarea.form-input::-webkit-resizer {
     border-radius: 15%;
   }
 
+  @media (max-width: 1250px) and (min-width: 1024px) {
+    .avatar-box img {
+      width: 130px;
+    }
+  }
+
   .info-content .name {
     white-space: nowrap;
     text-align: center;
